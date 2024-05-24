@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Jumlah Panen Komoditas Indonesia 2018-2022</h1>
+        <div class="option">
+            <ul>
+                <li>
+                  <input type="radio" value="all-categories" name="option" id="all-categories" checked />
+                  <label for="all-categories">All Categories</label>
+                </li>
+                <li>
+                  <input type="radio" value="padi" name="option" id="padi" />
+                  <label for="padi">Padi</label>
+                </li>
+                <li>
+                  <input type="radio" value="jagung" name="option" id="jagung" />
+                  <label for="jagung">Jagung</label>
+                </li>
+                <li>
+                  <input type="radio" value="tebu" name="option" id="tebu" />
+                  <label for="tebu">Tebu</label>
+                </li>
+                <li>
+                  <input type="radio" value="kelapa-sawit" name="option" id="kelapa-sawit" />
+                  <label for="kelapa-sawit">Kelapa Sawit</label>
+                </li>
+              </ul>
+        </div>
+    </form>
+
+    <div class="content">
+        <div class="all" id="all-categories-page">
+            <h1>grafik semua</h1>
+        </div>
+
+        <div class="all" id="padi-page">
+            <h1>grafik padi</h1>
+        </div>
+
+        <div class="all" id="jagung-page">
+            <h1>grafik jagung</h1>
+        </div>
+
+        <div class="all" id="tebu-page">
+            <h1>grafik tebu</h1>
+        </div>
+
+        <div class="all" id="kelapa-sawit-page">
+            <h1>grafik sawit</h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
