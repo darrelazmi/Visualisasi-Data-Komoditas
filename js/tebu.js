@@ -1,4 +1,4 @@
-TEBU = document.getElementById('all-categories-page');
+TEBU = document.getElementById('tebu-page');
 
 
 var tebu = {

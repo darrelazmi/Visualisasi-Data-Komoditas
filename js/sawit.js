@@ -1,4 +1,4 @@
-SAWIT = document.getElementById('all-categories-page');
+SAWIT = document.getElementById('kelapa-sawit-page');
 
 var sawit = {
     x: [2018, 2019, 2020, 2021, 2022],

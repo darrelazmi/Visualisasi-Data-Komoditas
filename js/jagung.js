@@ -1,4 +1,4 @@
-JAGUNG = document.getElementById('all-categories-page');
+JAGUNG = document.getElementById('jagung-page');
 
 var jagung = {
     x: [2018, 2019, 2020, 2021, 2022],
